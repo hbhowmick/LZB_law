@@ -49,12 +49,24 @@ nav ul li {
   font-weight: 500;
   padding-left: 10px;
   padding-right: 10px;
+  text-align: center;
 }
 
+main {
+  margin: 0px 6.5% 20px 6.5%;
+}
 
+div {
+  display: block;
+}
 
+p {
+  font-size: 12px;
+}
 
-
+.top-margin {
+  margin-top: 25px;
+}
 
 a {
   color: black;
@@ -76,15 +88,36 @@ ol, ul {
   margin-bottom: 10px;
 }
 
-
 li {
-  text-align: center;
+  text-align: left;
   display: list-item;
+
+}
+
+h4 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 92%;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid darkgrey;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+h5 a {
+  color: white;
 }
 
 h6 {
   font-weight: bold;
   margin-top: 20px;
+  font-size: 12px;
 }
 
 .company-name {
@@ -101,20 +134,172 @@ h6 {
   overflow-y: scroll;
 }
 
-
-
-main {
-  margin: 0px 6.5% 20px 6.5%;
+.sidebar h5 {
+  border-bottom: 1px solid white;
 }
 
+.small-side-bar {
+  background: url(../images/nav_side_sub.jpg);
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  color: white;
+  font-size: 11px;
+}
 
+.small-side-bar h5 {
+  border-bottom: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  margin-top: 0px;
+  font-weight: bold;
+}
 
+.small-side-bar ul {
+  text-align: left;
+  margin: 0px;
+  padding: 2px;
+}
 
+.small-side-bar ul li {
+  padding-bottom: 10px;
+  list-style-type: none;
+}
 
+.small-side-bar>ul>.sub-header {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
 
+.sub-header-bottom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
+.small-side-bar>ul>ul>li {
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
 
+.small-side-bar a {
+  color: white;
+  font-size: 12px;
+}
 
+.small-side-bar li a:hover {
+  font-weight: bold;
+}
+
+.email-link a {
+  text-decoration: underline;
+  color: #91342f;
+  opacity: 0.95;
+}
+
+.company-info {
+  width: 28%;
+  float: right;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 10px;
+}
+
+.company-info p {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+@media .col-md-3, .col-md-4, .col-md-6 {
+  float: left;
+}
+
+@media .col-md-3 {
+  width: 25%;
+}
+
+@media .col-md-4 {
+  width: 33.33333333%;
+}
+
+@media .col-md-6 {
+  width: 50%;
+}
+
+.col-md-1, .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-9, .col-md-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+.col-md-6 img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption h6 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 2px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+figcaption p {
+  margin:0px;
+  padding: 0px;
+  font-size: 10px;
+}
+
+.sub-list {
+  position: relative;
+  padding-left: 15px;
+  padding-bottom: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+.listed-places {
+  line-height: 12px;
+}
+
+.inner-content {
+  padding: 25px 0px 250px 0px;
+  line-height: normal;
+}
+
+.inner-content a {
+  text-decoration: underline;
+}
+
+.right-side-nav {
+  background-color: #D7CEC5;
+  padding: 2px 10px 2px 10px;
+  /* width: 90%; */
+}
+
+.right-bar-margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.extra-top-padding {
+  padding-top: 20px;
+}
 
 footer {
   margin: 30px 6.5% 12px 6.5%;
@@ -145,4 +330,9 @@ footer {
   text-align: center;
   font-size: 10px;
   color: #C0C0C0;
+}
+
+.copyright a:hover {
+  text-decoration: none;
+  color: rgba(160, 49, 45, 1);
 }
