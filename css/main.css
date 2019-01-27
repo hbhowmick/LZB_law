@@ -131,7 +131,12 @@ h6 {
   padding: 10px;
   color: white;
   font-size: 11px;
-  overflow-y: scroll;
+  overflow: auto;
+}
+
+#style-01::-webkit-scrollbar {
+  width: 6px;
+  background: url(.images/nav_side.jpg)
 }
 
 .sidebar h5 {
